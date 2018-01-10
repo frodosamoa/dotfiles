@@ -4,7 +4,7 @@ if [[ -n "$PS1" ]]; then
   export PATH="$HOME/bin:$PATH";
 
   # include all bash helper files
-  for file in ~/bash/.{aliases,bash_prompt}; do
+  for file in ~/bash/{aliases,bash_prompt}.sh; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
   done;
   unset file;
