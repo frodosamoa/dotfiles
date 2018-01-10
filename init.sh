@@ -8,7 +8,7 @@ export DOTFILES="${DIR}"
 
 EOT
 
-# copy over the .inputrc to the home directory
-cp .inputrc ~/.inputrc
+# copy over home directory dotfiles
+cp -iR home/ ~
 
 unset DIR
