@@ -36,4 +36,7 @@ if [[ -n "$PS1" ]]; then
     ssh-add
   fi
 
+  # z is the new j, yo
+  source /usr/local/etc/profile.d/z.sh
+
 fi
