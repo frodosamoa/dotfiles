@@ -45,8 +45,10 @@ you can run the `./install/macos.sh` for some sensible mac defaults when you get
 - [ ] add Alfred preferences and links to workflows?
 - [ ] add VSCode keyboard shortcuts that you have modified?
 - [ ] add VSCode user settings (font, whitespace trimming, etc.)
-- [ ] finish up adding casks
-    - [ ] firefox, adobe-creative-cloud, atext, 1password
+
+## apps that are installed through mac app store
+
+todoist, mindnode, lynda.com
 
 ## thanks
 
