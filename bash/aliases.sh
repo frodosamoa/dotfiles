@@ -24,7 +24,7 @@ alias gap='git add --patch'
 # commit
 alias gc='git commit'
 alias gca='git commit --amend'
-alias gcm='git commit -m'
+alias gcm='git commit --message'
 
 # diff
 alias gd='git diff'
@@ -45,14 +45,21 @@ alias grv='git remote -v'
 
 # checkout
 alias gco='git checkout'
+alias gcb='git checkout -b'
 alias gcm='git checkout master'
 
 # status
 alias gst='git status'
-alias gss='git status -s'
+alias gss='git status --short'
 
 # cherry-pick
 alias gcp='git cherry-pick'
+
+# push
+alias gp='git push'
+alias gpf= 'gir push --force'
+
+#reset
 
 # yarn
 alias y='yarn'
