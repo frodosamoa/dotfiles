@@ -57,7 +57,7 @@ alias gcp='git cherry-pick'
 
 # push
 alias gp='git push'
-alias gpf= 'gir push --force'
+alias gpf='git push -f'
 
 #reset
 
