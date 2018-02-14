@@ -40,9 +40,8 @@ you can run the `./install/macos.sh` for some sensible mac defaults when you get
 
 - [ ] add `karabiner.json` for karabiner defaults
 - [ ] add `Solarized Terminal.terminal` for Terminal defaults
-- [ ] add aText snippets
 - [ ] add Hazel rules
-- [ ] add Alfred preferences and links to workflows?
+- [ ] add Alfred preferences and links to workflows
 - [ ] add all Atom preferences
 
 ## apps that are installed through mac app store
