@@ -42,11 +42,13 @@ alias glg='git log --graph --pretty="%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgr
 
 # remote
 alias grv='git remote -v'
+alias grp='git remote prune'
 
 # checkout
 alias gco='git checkout'
 alias gcb='git checkout -b'
 alias gcm='git checkout master'
+alias gcd='git checkout development'
 
 # status
 alias gst='git status'
@@ -59,7 +61,8 @@ alias gcp='git cherry-pick'
 alias gp='git push'
 alias gpf='git push -f'
 
-#reset
+# pull
+alias gl='git pull'
 
 # yarn
 alias y='yarn'

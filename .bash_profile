@@ -17,9 +17,18 @@ if [[ -n "$PS1" ]]; then
   # add git completion
   source /usr/local/etc/bash_completion.d/git-completion.bash
   __git_complete gco _git_checkout
+  __git_complete gc _git_commit
+  __git_complete gp _git_push
+
 
   # append to the Bash history file, rather than overwriting it
-  shopt -s histappend;
+  export HISTCONTROL=ignoredups:erasedups  # no duplicate entries
+  export HISTSIZE=100000                   # big big history
+  export HISTFILESIZE=100000               # big big history
+  shopt -s histappend               # append to history, don't overwrite it
+
+  # Save and reload the history after each command finishes
+  export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
   # autocorrect typos in path names when using `cd`
   shopt -s cdspell;
