@@ -1,2 +1,3 @@
-user.name=Andrew Kowalczyk
-user.email=andrewrkowalczyk@gmail.com
+[user]
+    name=Andrew Kowalczyk
+    email=andrewrkowalczyk@gmail.com

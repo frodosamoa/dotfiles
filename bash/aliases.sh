@@ -24,7 +24,7 @@ alias gap='git add --patch'
 # commit
 alias gc='git commit'
 alias gca='git commit --amend'
-alias gcm='git commit --message'
+alias gm='git commit --message'
 
 # diff
 alias gd='git diff'

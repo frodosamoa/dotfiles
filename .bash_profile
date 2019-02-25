@@ -60,4 +60,7 @@ if [[ -n "$PS1" ]]; then
   # Use colors for less, man, etc.
   [[ -f $DOTFILES/home/.LESS_TERMCAP ]] && . $DOTFILES/home/.LESS_TERMCAP
 
+  # Setting fd as the default source for fzf
+  export FZF_DEFAULT_COMMAND='fd -H -E .git'
+
 fi
