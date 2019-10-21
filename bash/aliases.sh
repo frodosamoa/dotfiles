@@ -17,6 +17,9 @@ alias la='ls -laF ${colorflag}'
 # Always use color output for `ls`
 alias ls='command ls ${colorflag}'
 
+# go back
+alias back='cd -'
+
 # add
 alias ga='git add'
 alias gap='git add --patch'
@@ -36,6 +39,7 @@ alias grb='git rebase'
 alias grbi='git rebase --interactive'
 alias grbc='git rebase --continue'
 alias grba='git rebase --abort'
+alias grbd='git rebase development'
 
 # log
 alias glg='git log --graph --pretty="%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
@@ -63,6 +67,9 @@ alias gpf='git push -f'
 
 # pull
 alias gl='git pull'
+
+# update development
+alias gprbd='git checkout development && git pull && git checkout - && git rebase development'
 
 # yarn
 alias y='yarn'
