@@ -1,4 +1,5 @@
 # dotfiles
+
 very minimal set of dotfiles for your terminal
 
 ## installation
@@ -8,7 +9,7 @@ very minimal set of dotfiles for your terminal
    `$ git clone git@github.com:frodosamoa/dotfiles.git`
 
 1. run the `./init.sh` script located in this repository. this adds a few lines to your `~/.bash_profile` which will link together the `.bash_profile` file located in this directory (which makes use of all the scripts located in `/bash`).
-this also copies over an `.inputrc` file to your home directory.
+   this also copies over an `.inputrc` file to your home directory.
 
 ## homebrew
 
@@ -20,7 +21,6 @@ then:
 
     brew tap Homebrew/bundle
     cd $DOTFILES && brew bundle
-
 
 ## language specific
 
@@ -38,15 +38,9 @@ you can run the `./install/macos.sh` for some sensible mac defaults when you get
 
 ## todo
 
-- [ ] add `karabiner.json` for karabiner defaults
-- [ ] add `Solarized Terminal.terminal` for Terminal defaults
 - [ ] add Hazel rules
 - [ ] add Alfred preferences and links to workflows
-- [ ] add all Atom preferences
-
-## apps that are installed through mac app store
-
-todoist, mindnode, lynda.com
+- [ ] add all VSCode preferences
 
 ## thanks
 
