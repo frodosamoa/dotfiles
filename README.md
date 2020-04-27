@@ -22,6 +22,10 @@ then:
     brew tap Homebrew/bundle
     cd $DOTFILES && brew bundle
 
+and also you can export the `Brewfile`:
+
+    brew bundle dump --force
+
 ## language specific
 
 ### nvm
