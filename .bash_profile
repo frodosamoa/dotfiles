@@ -63,4 +63,7 @@ if [[ -n "$PS1" ]]; then
   # Setting fd as the default source for fzf
   export FZF_DEFAULT_COMMAND='fd -H -E .git'
 
+  # pyenv
+  eval "$(pyenv init -)"
+
 fi
