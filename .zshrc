@@ -27,14 +27,6 @@ setopt HIST_IGNORE_DUPS
 
 eval $(thefuck --alias)
 
-eval "$(pyenv init -)"
-
-# z is the new j, yo
-source /usr/local/etc/profile.d/z.sh
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
 # Get color support for 'less'
 export LESS="--RAW-CONTROL-CHARS"
 

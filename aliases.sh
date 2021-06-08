@@ -1,8 +1,6 @@
 # Easier navigation: .., ..., ...., .....
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
 
 # ls aliases
 colorflag='-G'
